@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var n1 = Number(prompt(`escreva o primeiro numero do calculo`))
+        var n2 = Number(prompt(`escreva o segundo numero do calculo`))
+        var escolha = Number(prompt(`escolha seu operador (1= subtracao) (2 = adicao) (3 = divisao) (4 = multiplicacao)`))
+        var subtracao = n1 - n2
+        var adicao = n1 + n2
+        var divisao = n1 / n2
+        var multiplicacao = n1 * n2
+
+        if (escolha === 1) {
+            alert(`o resultado : ${n1} - ${n2} = ${subtracao}`)
+        }
+        if (escolha === 2) {
+            alert(`o resultado : ${n1} + ${n2} = ${adicao}`)
+        }
+        if (escolha === 3) {
+            alert(`o resultado : ${n1} : ${n2} = ${divisao}`)
+        }
+        if (escolha === 4) { 
+            alert(`o resultado : ${n1} x ${n2} = ${multiplicacao}`) 
+        }
+    </script>
+</body>
+
+</html>
